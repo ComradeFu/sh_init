@@ -9,7 +9,7 @@
 localbasepath="$HOME/.local"
 
 # 将个人 ~/.local/bin 目录加入 PATH
-local_bin_path="$localbasepath/bin"
+local_bin_path="$localbasepath/config/bin"
 if [ -d $local_bin_path ]; then
     # 增加所有文件的权限
     for file in $local_bin_path/*; do
