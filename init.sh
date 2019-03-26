@@ -1,9 +1,9 @@
-# 防止被加载两次
-# if [ -z "$_INIT_SH_LOADED" ]; then
-#     _INIT_SH_LOADED=1
-# else
-#     return
-# fi
+#防止被加载两次
+if [ -z "$_INIT_SH_LOADED" ]; then
+    _INIT_SH_LOADED=1
+else
+    return
+fi
 
 # 父级目录
 localbasepath="$HOME/.local"
