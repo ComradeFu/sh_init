@@ -12,13 +12,13 @@ git_name="sh_init-master"
 
 # 创建好目录
 if [ ! -d $basepath ]; then
-    mkdir -p basepath
+    mkdir -p $basepath
     echo "创建本地配置目录${basepath}"
 fi
 
 # 临时目录
 if [ ! -d $basetmppath ]; then
-    mkdir -p basetmppath
+    mkdir -p $basetmppath
 fi
 
 cd $basetmppath
