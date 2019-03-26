@@ -30,7 +30,7 @@ unzip master
 echo "完成git版本库下载:${git}"
 
 # 讲固定名字下的文件夹拷贝到basepath
-cp -rf ./${git_name} $basepath
+cp -rf ./${git_name}/* $basepath
 
 echo "复制至:${basepath}"
 
